@@ -1,0 +1,42 @@
+.content-background{
+    min-height: 100%;
+    background-size: cover;
+    background-color: rgb(8,9,10,1);
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px; 
+    padding: 1rem; 
+}
+
+.content-image{
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+    border-radius: 0.5vw;
+}
+
+.content-title{
+    padding-top: 1rem;
+    margin: 0;
+    text-align: left;
+    color: #F4F7F5;
+}
+
+.content-description{
+    width: 100%;
+    height: auto;
+    color: #F4F7F5;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
